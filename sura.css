@@ -482,7 +482,7 @@ name name
     text-align: center;
     color:#b6cccf;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 29px;
     padding-bottom: 15px;
 }
 
@@ -490,10 +490,10 @@ name name
 .ayah-01 h1{
     text-align: right;
     color: #bdcece;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     padding-bottom: 25px;
     line-height: 61px;
-    font-size: 37px;
+    font-size: 45px;
 }
 
 
@@ -506,7 +506,7 @@ name name
 .ayah-01 h2{
     color: #2d7077;
     padding: 15px 0px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 400;
 }
 

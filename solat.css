@@ -21,7 +21,7 @@
  .solat h3{
      color: aliceblue;
      padding: 11px;
-     font-size: 21px;
+     font-size: 25px;
      text-align: center;
  }
  
@@ -30,7 +30,7 @@
     text-align: center;
     color: #01b6ff;
     padding-top: 25px;
-    font-size: 23px;
+    font-size: 27px;
 }
 
 .hadith{
@@ -41,13 +41,13 @@
     padding-top: 15px;
     color: #01b6ff;
     line-height: 45px;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .hadith h1{
     color: aliceblue;
     padding: 11px;
-    font-size: 27px;
+    font-size: 33px;
     text-align: right;
     line-height: 45px;
 }
@@ -61,7 +61,7 @@
 .hadith p{
     color: rgb(161, 160, 157);
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 25px;
 }
 
