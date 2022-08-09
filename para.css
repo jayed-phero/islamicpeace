@@ -12,13 +12,13 @@
 
 .main-video{
     position: fixed;
-    height: 345px;
+    height: 285px;
     width: 100%;
     background: #171431;
 }
 
 .videoo-list{
-    padding-top: 341px;
+    padding-top: 285px;
     background: #171431;
     padding-bottom: 55px;
 }
