@@ -461,8 +461,8 @@ name name
   background: #191f2d;
   border-radius: 15px;
   padding-top: 35px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -473,15 +473,15 @@ name name
     background: #2c3240;
     border-radius: 65px;
     padding-top: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 15px;
   }
 
-  .ayah-0101 h1{
+.ayah-0101 h1{
     text-align: center;
     color:#b6cccf;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 29px;
     padding-bottom: 15px;
 }
@@ -490,10 +490,10 @@ name name
 .ayah-01 h1{
     text-align: right;
     color: #bdcece;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     padding-bottom: 25px;
     line-height: 61px;
-    font-size: 45px;
+    font-size: 41px;
 }
 
 
@@ -549,7 +549,7 @@ name name
 .ayah-icon-section i{
     padding-right: 31px;
     padding-top: 3px;
-    color: #126b6f;
+    color: #01b6ff;
 }
 
 
