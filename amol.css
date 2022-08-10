@@ -42,6 +42,13 @@ body{
     font-size: 15px;
 }
 
+.amol-head img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 55px;
+}
+
 .amols ul{
     display: flex;
     flex-direction: column;
@@ -417,6 +424,23 @@ nav{
     color: #fefdff;
     font-size: 17px;
     padding: 5px;
+}
+
+
+/* sura-mulk-main */
+
+.sura-mulk-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.sura-mulk-main a{
+     text-decoration: none;
+     padding: 5px 15px;
+     background: #01b6ff;
+     border-radius: 5px;
+     color: white;
 }
 
 

@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
+   
 }
 
 .background-color{
@@ -120,7 +122,7 @@ nav{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 55px;
+    height: 65px;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
     background-color: #01b6ff;
     overflow-x: auto;
@@ -316,6 +318,77 @@ sura-list
 }
 
 
+/* bsleep-work */
 
-/*==========sir-islamic=======*/
+.before-sleeping{
+    padding-bottom: 55px;
+}
 
+.bsleep-work h2{
+    color: #cce3f1;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-left: 25px;
+}
+
+.bsleep-work p{
+    padding-left: 25px;
+    color: #4f5152;
+}
+
+.bsleep-work iframe{
+    width: 100%;
+    height: 225px;
+}
+
+.work-sleep{
+    /* background: #182430; */
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 25px;
+    color:  #cce3f1;
+}
+
+.work-sleep h3{
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.work{
+    display: flex;
+    background: #182430;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.work p{
+    width: 141px;
+    margin-top: 15px;
+}
+
+.work div{
+    height: 35px;
+    width: 151px;
+    text-decoration: none;
+    background: #01b6ff;
+    border-radius: 5px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .work div:hover{
+    background: transparent;
+    color: #01b6ff;
+} */
+
+.work a{
+    text-decoration: none;
+    color:  #cce3f1;
+}
