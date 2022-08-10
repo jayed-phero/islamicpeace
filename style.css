@@ -5,11 +5,38 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.background-color{
+    background: #0f2854;
+    padding-top: 15px;
+}
+
 
 body{
     margin: 0 0 55px 0;
     background: #0f2854;
 }
+
+
+.container img{
+    height: 285px;
+    width: 100%;
+    padding: 0px 15px;
+    margin-top: -25px;
+}
+
+.carousel{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.carousel-item img{
+    height: 215px;
+    width: 100%;
+    border-radius: 15px;
+   
+}
+
+
 
 
 nav{
