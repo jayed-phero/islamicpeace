@@ -6,7 +6,7 @@
 }
 
 .background-color{
-    background: #0f2854;
+    background: #101c2a;
     padding-top: 15px;
     padding-bottom: 25px;
 }
@@ -44,31 +44,38 @@ body{
     margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 11px;
+    margin-right:11px;
+}
+
+.solat-5 .div{
+    background: #02cb56;
 }
 
 .solat-5 div{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around; 
     height: 25px;
     width: 61px;
-    background: #378daf;
-    border: 1px solid ghostwhite;
+    border: 2px solid rgb(157, 154, 154);
     border-radius: 25px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     color:#fefefe;
 }
 
-.solat-5 p a{
-    text-decoration: none;
-    background: green;
-    border: 1px solid ghostwhite;
-    border-radius: 25px;
-    width: 1100px;
+.solat-5 div p{
+   margin-top: 4px;
 }
+
+
+.solat-5 div img{
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+}
+
+
 .part{
     padding: 25px 15px;
 }
@@ -77,8 +84,29 @@ body{
 .part-1{
     height: auto;
     width: 100%;
-    background: #0f1b33db;
+    background: #182430;
     border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.part-1 img{
+    height: 35px;
+    width: 35px;
+}
+
+.part-1 h5{
+    color: #cce3f1;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.part-1 p{
+    color: #cce3f1;
+    font-size: 13px;
 }
 
 
