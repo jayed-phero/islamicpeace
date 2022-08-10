@@ -40,6 +40,46 @@ body{
     display: flex;
 }
 
+.solat-5{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.solat-5 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 61px;
+    background: #378daf;
+    border: 1px solid ghostwhite;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    color:#fefefe;
+}
+
+.solat-5 p a{
+    text-decoration: none;
+    background: green;
+    border: 1px solid ghostwhite;
+    border-radius: 25px;
+    width: 1100px;
+}
+.part{
+    padding: 25px 15px;
+}
+
+
+.part-1{
+    height: auto;
+    width: 100%;
+    background: #0f1b33db;
+    border-radius: 25px;
+}
 
 
 
