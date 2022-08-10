@@ -12,20 +12,21 @@
 
 .main-video{
     position: fixed;
-    height: 291px;
+    height: 221px;
     width: 100%;
     background: #171431;
 }
 
-.main-video h5{
+.main-titlee h5{
     color: #c8c5c5;
     font-size: 13px;
     padding-left: 19px;
     padding-top: 7px;
+    padding-bottom: 15px;
 
 }
 
-.main-video h3{
+.main-titlee h3{
      color: #ffffff;
      font-size: 19px;
      padding-top: 11px;
@@ -39,7 +40,7 @@
 }
 
 .videoo-list{
-    padding-top: 293px;
+    padding-top: 223px;
     background: #040215;
     padding-bottom: 9px;
 }
