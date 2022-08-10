@@ -182,14 +182,12 @@ more
     color: #01b6ff;
 }
 
-.more-items{
-    padding-bottom: 15px;
-}
+
 
 .more-items .item{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 25px;
+    margin-top: 11px;
 }
 
 .item-info{
@@ -207,8 +205,8 @@ more
     display: flex;
     justify-content: center;
     align-items: center;
-    height:85px;
-    width: 85px;
+    height:75px;
+    width: 75px;
     border-radius: 21px;
     background: #22396e;
     box-shadow: 3px 3px 7px  #0c1118; 
@@ -216,8 +214,8 @@ more
 }
 
 .item-info img{
-    height: 47px;
-    width: 47px;
+    height: 41px;
+    width: 41px;
 }
 
 .item-info h3{
