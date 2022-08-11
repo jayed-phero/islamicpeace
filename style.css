@@ -32,7 +32,7 @@ body{
 }
 
 .carousel-item img{
-    height: 215px;
+    height: 205px;
     width: 100%;
     border-radius: 15px;
    
@@ -76,6 +76,47 @@ body{
     width: 21px;
     border-radius: 50%;
 }
+
+.part-one{
+    padding: 25px 15px;
+}
+
+.part-desc div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.part-desc{
+    height: auto;
+    width: 100%;
+    background: #182430;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+}
+
+.part-desc img{
+    height: 25px;
+    width: 25px;
+}
+
+.part-desc h5{
+    color: #01b6ff;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.part-desc p{
+    color: #cce3f1;
+    font-size: 13px;
+    padding-bottom: 0;
+}
+
 
 
 .part{
