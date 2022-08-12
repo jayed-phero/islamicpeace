@@ -444,6 +444,23 @@ nav{
 }
 
 
+.hed-title-zikir {
+    position: fixed;
+    height: 71px;
+    width: 100%;
+    color: #aea8b4;
+    background: #22396e;
+}
+
+.hed-title-zikir h2{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+#solat{
+    padding-top: 75px
+}
+
 
 
 
