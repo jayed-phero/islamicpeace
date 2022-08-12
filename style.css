@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
+    text-decoration: none;
    
 }
 
@@ -359,7 +360,8 @@ sura-list
 }
 
 
-/* bsleep-work */
+/* bsleep-work   */
+/* =========more-small-section */
 
 .before-sleeping{
     padding-bottom: 55px;
@@ -432,4 +434,48 @@ sura-list
 .work a{
     text-decoration: none;
     color:  #cce3f1;
+}
+
+.more-small-section{
+    height: 131px;
+    position: sticky;
+    top: 0;
+    background:  #182430;
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+.brforesleep{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-evenly;
+}
+
+.brforesleep div{
+    height: 71px;
+    width: 151px;
+    background: #22396e;
+    border-radius: 25px;
+  
+}
+
+.brforesleep div img{
+    width: 100%;
+    height: 71px;
+    border-radius: 25px;
+}
+
+.for-picture {
+    margin-bottom: 25px;
+}
+
+.for-picture p{
+    color:  #cce3f1;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.brforesleep div a{
+    text-decoration: none;
 }
