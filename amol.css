@@ -429,15 +429,24 @@ nav{
 
 /* sura-mulk-main */
 
-.sura-mulk-main{
+.sura-mulk-main {
+    padding: 15px;
+}
+
+.sura-mulk-main div{
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    height: 71px;
+    width: 100%;
+    background: #22396e;
+    border-radius: 25px;
 }
 
-.sura-mulk-main a{
+.sura-mulk-main div a{
      text-decoration: none;
-     padding: 5px 15px;
+     padding: 9px 25px;
+     margin: 15px 0px;
      background: #01b6ff;
      border-radius: 5px;
      color: white;

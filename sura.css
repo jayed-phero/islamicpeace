@@ -601,3 +601,69 @@ nav{
 
 
 
+
+/* before sleeping work list */
+
+.works{
+    position: sticky;
+    top: 0;
+    height: 131px;
+    width: 100%;
+    background: #1d2436;
+    z-index: 1;
+}
+
+.work-list-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 11px;
+    grid-row-gap: 11px;
+    margin: 0px 15px;
+    padding-top: 15px;
+}
+
+.work-list-button a{
+    text-decoration: none;
+}
+
+.list-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background: #22396e;
+    border-radius: 5px;
+}
+
+.list-1 div img{
+    height: 27px;
+    width: 27px;
+}
+
+.list-1 div{
+    height: 31px;
+    width: 31px;
+    background: #13d3d6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-1 p{
+    color: #c1d2d3;
+    font-size: large;
+}
+
+.first-hed-2{
+    text-align: center;
+    color: #13d3d6;
+    padding: 25px 0px;
+}
+
+#suraa-1{
+    margin-top: -5px
+}
+
+
