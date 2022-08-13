@@ -628,7 +628,7 @@ nav{
 
 .list-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 45px;
     width: 100%;
@@ -649,11 +649,22 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:7px;
 }
 
 .list-1 p{
     color: #c1d2d3;
-    font-size: large;
+    font-size: 17px;
+    padding-right: 11px;
+    text-align: center;
+}
+
+.list-1  .sura--0{
+    margin-right: 15px;
+}
+
+.list-1 .sura--1{
+    margin-right: 5px;
 }
 
 .first-hed-2{
