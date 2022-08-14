@@ -490,10 +490,10 @@ name name
 .ayah-01 h1{
     text-align: right;
     color: #bdcece;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     padding-bottom: 25px;
     line-height: 75px;
-    font-size: 45px;
+    font-size: 39px;
 }
 
 
@@ -508,6 +508,7 @@ name name
     padding: 15px 0px;
     font-size: 19px;
     font-weight: 400;
+    line-height: 31px;
 }
 
 .ayah-01 h3{
@@ -604,7 +605,7 @@ nav{
 
 /* before sleeping work list */
 
-.works{
+/* .works{
     position: sticky;
     top: 0;
     height: 131px;
@@ -674,6 +675,87 @@ nav{
 
 #suraa-1{
     margin-top: -5px
+} */
+
+
+
+/* new bfore sleeping work */
+
+.works{
+    position: sticky;
+    top: 0;
+    height: 131px;
+    width: 100%;
+    background: #0d2550;
+    border-radius: 25px;
+    z-index: 1;
 }
+
+.work-list-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 11px;
+    grid-row-gap: 11px;
+    margin: 0px 15px;
+    padding-top: 15px;
+}
+
+.work-list-button a{
+    text-decoration: none;
+}
+
+.list-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background: #126b6f;
+    border-radius: 15px;
+    border: 2px solid #a8b5ba;
+}
+
+.list-1 div img{
+    height: 27px;
+    width: 27px;
+}
+
+.list-1 div{
+    height: 31px;
+    width: 31px;
+    background: #13d3d6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:7px;
+}
+
+.list-1 p{
+    color: #c1d2d3;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding-right: 11px; */
+    /* text-align: center; */
+}
+
+.list-1  .sura--0{
+    margin-right: 15px;
+}
+
+.list-1 .sura--1{
+    margin-right: 5px;
+}
+
+.first-hed-2{
+    text-align: center;
+    color: #13d3d6;
+    padding: 25px 0px;
+}
+
+#suraa-1{
+    margin-top: -5px
+}
+
 
 
