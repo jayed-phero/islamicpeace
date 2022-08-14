@@ -87,7 +87,6 @@ sura-list
     padding: 9px 0px;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 25px;
 }
 
 .sura-btn-0 a{
@@ -507,9 +506,10 @@ name name
 .ayah-01 h2{
     color: #2d7077;
     padding: 15px 0px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 31px;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .ayah-01 h3{
