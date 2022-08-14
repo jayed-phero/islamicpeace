@@ -490,10 +490,10 @@ name name
 .ayah-01 h1{
     text-align: right;
     color: #bdcece;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     padding-bottom: 25px;
     line-height: 75px;
-    font-size: 39px;
+    font-size: 41px;
 }
 
 
@@ -684,7 +684,7 @@ nav{
 .works{
     position: sticky;
     top: 0;
-    height: 131px;
+    height: 111px;
     width: 100%;
     background: #0d2550;
     border-radius: 25px;
@@ -708,10 +708,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
+    height: 35px;
     width: 100%;
     background: #126b6f;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 2px solid #a8b5ba;
 }
 
@@ -739,13 +739,13 @@ nav{
     /* text-align: center; */
 }
 
-.list-1  .sura--0{
+/* .list-1  .sura--0{
     margin-right: 15px;
 }
 
 .list-1 .sura--1{
     margin-right: 5px;
-}
+} */
 
 .first-hed-2{
     text-align: center;
