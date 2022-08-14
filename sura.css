@@ -78,7 +78,7 @@ sura-list
 
 
 .sura-btn-0{
-    height: 71px;
+    height: 61px;
     width:100%;
    /* border-radius: 15px 15px 0px 0px;
     border-radius: 15px;*/
@@ -490,10 +490,10 @@ name name
 .ayah-01 h1{
     text-align: right;
     color: #bdcece;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     padding-bottom: 25px;
     line-height: 75px;
-    font-size: 41px;
+    font-size: 43px;
 }
 
 
@@ -599,6 +599,24 @@ nav{
     font-size: 25px;
     color: #22396e;
  }
+
+
+
+
+
+
+
+ /* new.nav */
+
+.nav-nav a i:hover{
+    font-size: 21px;
+    color: #22396e;
+ }
+
+ .nav-text{
+    font-size: 13px;
+ }
+
 
 
 
@@ -749,8 +767,9 @@ nav{
 
 .first-hed-2{
     text-align: center;
-    color: #13d3d6;
-    padding: 25px 0px;
+    color: #b6cccf;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #suraa-1{
