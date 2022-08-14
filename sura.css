@@ -87,6 +87,7 @@ sura-list
     padding: 9px 0px;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 25px;
 }
 
 .sura-btn-0 a{
