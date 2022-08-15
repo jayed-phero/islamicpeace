@@ -216,38 +216,51 @@ name name
 
 .names-main{
     height: auto;
-    background: #0d2550;
+    /* background: #0d2550; */
+    background: #0e0f28;
 }
 
+
+
 .pera-item{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
-.name-title h2{
+.title-of-h2{
+    position: fixed;
+    height: 61px;
+    width: 100%;
+    background: #0d2550;
+    margin-bottom: 51px;
+}
+
+.names-main h2{
     text-align: center;
     padding-top: 15px;
     color: #01b6ff;
 }
 
-.name-title .pera-item{
-    display: flex;
+ .pera-item{
+    /* display: flex; */
     text-align: center;
     align-items: center;
-    height: 131px;
+    /* height: 131px; */
+    height: auto;
     width: 100%;
     background: #0d2550;
     border-radius: 15px;
     color: #edf7f8;
     font-weight: 500;
-    margin-top: 25px;
-    font-size: 17px;
-    padding: 35px 45px;
+    /* margin-top: 25px; */
+    font-size: 15px;
+    padding: 15px 15px;
     margin-bottom: 25px;
 }
 
-.title-of-name{
-    padding: 0 9px;
+.title-of-main{
+    padding: 0 11px;
+    padding-top: 85px;
 }
 
 
@@ -260,7 +273,7 @@ name name
 }
 
 .name-flex{
-    padding-top: 220px;
+    /* padding-top: 220px; */
     display: flex; 
     flex-direction: column; 
     align-items: center;
