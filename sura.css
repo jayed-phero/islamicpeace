@@ -80,10 +80,10 @@ sura-list
 .sura-btn-0{
     height: 61px;
     width:100%;
-   /* border-radius: 15px 15px 0px 0px;
-    border-radius: 15px;*/
+   /* border-radius: 15px 15px 0px 0px; */
+    border-radius: 15px;
     display:flex;   
-    background: #ffffff;
+    background:  whitesmoke;
     padding: 9px 0px;
     justify-content: space-evenly;
     align-items: center;
@@ -98,6 +98,12 @@ sura-list
     font-size: 15px;
     color: #ffffff;
     font-weight: 500;
+    border: 2px solid gray;
+}
+
+.sura-btn-0 a:hover{
+    background: black;
+    border: 2px solid black;
 }
 
 
@@ -281,6 +287,7 @@ name name
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    padding-bottom: 55px;
 
 }
 
