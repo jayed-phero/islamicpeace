@@ -156,6 +156,19 @@ sura-list
     background:  #01b6ff ;
 }
 
+
+ .namee .number{
+    height: 31px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 50%;
+    background:  #01b6ff ;
+}
+
 .sura-itemm .ittemn p{
     font-family: 'Poppins', sans-serif;
     color: #01b6ff ;
@@ -263,6 +276,11 @@ name name
   
  }
 
+ .name-flex .namee div{
+    margin-left: -35px;
+    width: 111px;
+ }
+
  .name-flex .namee a{
     text-decoration: none;
 }
@@ -279,13 +297,13 @@ name name
     color: #363232;
     font-weight: 500;
     padding-top: 3px;
-    width: 191px;
+    /* width: 191px; */
 }
 
 .name-flex .namee .ppp{
     font-size: 23px;  
     font-weight: 600;
-      
+    margin-right: -25px; 
 }
 
 .name-flex .namee i{
