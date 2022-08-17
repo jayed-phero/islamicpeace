@@ -459,10 +459,28 @@ color: #cce3f1;  */
 
 .hed-title-zikir {
     position: fixed;
-    height: 71px;
+    height: 61px;
     width: 100%;
-    color: #aea8b4;
-    background: #22396e;
+    color: #cce3f1;
+    background: #192a3e;
+}
+
+.hed-title-zikir h3{
+    text-align: center;
+    padding-top: 21px;
+  
+}
+
+.radious-img img{
+    border-radius: 25px;
+}
+
+.zikiir{
+    margin-top: -85px;
+}
+
+.zikir-video{
+    padding-top: 65px;
 }
 
 .hed-title-zikir h2{
