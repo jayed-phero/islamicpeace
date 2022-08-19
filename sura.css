@@ -825,4 +825,42 @@ nav{
 }
 
 
+/* important work before section */
+
+
+.part{
+    padding: 25px 15px;
+}
+
+
+.part-1{
+    height: auto;
+    width: 100%;
+    background: #182430;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.part-1 img{
+    height: 35px;
+    width: 35px;
+}
+
+.part-1 h5{
+    color: #cce3f1;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.part-1 p{
+    color: #cce3f1;
+    font-size: 13px;
+}
+
+
+
 
