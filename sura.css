@@ -840,6 +840,7 @@ nav{
     border-radius: 25px;
     padding: 15px;
     margin-bottom: 15px;
+    z-index: 0;
 }
 
 .part-1 img{
