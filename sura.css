@@ -839,7 +839,7 @@ nav{
     background: #182430;
     border-radius: 25px;
     padding: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .part-1 img{
@@ -848,7 +848,7 @@ nav{
 }
 
 .part-1 h5{
-    color: #cce3f1;
+    color: #01b6ff;
     font-size: 17px;
     font-weight: 600;
     padding-top: 7px;
