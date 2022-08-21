@@ -256,7 +256,11 @@ more
     border-radius: 21px;
     background: #22396e;
     box-shadow: 3px 3px 7px  #0c1118; 
-  
+}
+
+.image-file:hover{
+    background: transparent;
+     border: 2px solid #01b6ff;
 }
 
 .item-info img{
@@ -454,22 +458,33 @@ sura-list
     justify-content: space-evenly;
 }
 
-.brforesleep div{
-    height: 71px;
-    width: 151px;
-    background: #22396e;
-    border-radius: 25px;
-  
-}
 
 .brforesleep div img{
     width: 100%;
-    height: 71px;
+    height: 75px;
     border-radius: 25px;
 }
 
 .for-picture {
     margin-bottom: 25px;
+}
+
+.for-picture div {
+    height: 75px;
+    width: 151px;
+    background: #22396e;
+    border-radius: 25px;
+   
+}
+
+.for-picture div:hover{
+    background: transparent;
+    border: 2px solid #01b6ff;
+    height: 81px;
+}
+
+.for-picture div a img{
+    padding: 7px;
 }
 
 .for-picture p{
@@ -509,7 +524,7 @@ footer{
     padding: 15px;
 }
 
-.mobile h5, p{
+.mobile p{
     margin-bottom: 0;
     color: #cce3f1;
     text-align: center;
@@ -532,6 +547,10 @@ footer{
 
 }
 
+.about-us p{
+    color: #cce3f1;
+}
+
 .index-img{
     height: 95px;
     width: 95px;
@@ -550,7 +569,8 @@ footer{
 
 .index-logo-name{
     padding-top: 25px;
-    color: #01b6ff;
+    padding-bottom: 15px;
+    color: #cce3f1;
     text-align: center;
 }
 
@@ -565,7 +585,7 @@ footer{
     width: 55px;
     border-radius: 50%;
     background: transparent;
-    border: 2px solid #009578;
+    border: 2px solid #cce3f1;
     margin-right: 7px;
     margin-left: 7px;
     display: flex;
@@ -579,6 +599,8 @@ footer{
 
 .social .icon i{
     font-size: 27px;
+    color: #01b6ff;
+    margin-top: 3px;
 }
 
 .social .icon i:hover{
@@ -600,7 +622,7 @@ footer{
 .button{
     height: 45px;
     width: 151px;
-    background: #009578;
+    background: #01b6ff;
     margin-top: 15px;
     border-radius: 5px;
     display: flex;
