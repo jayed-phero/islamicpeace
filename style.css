@@ -539,7 +539,7 @@ footer{
 
 .about-us{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 55px;
 }
 
 .about-us h2{
@@ -657,4 +657,8 @@ footer{
 
 .islam span{
     color: #01b6ff;
+}
+
+.islam-song{
+    margin-top: 35px;
 }

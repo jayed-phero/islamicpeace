@@ -80,7 +80,7 @@ more
 }
 
 .more-items{
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .more-items .item{
@@ -109,8 +109,14 @@ more
     border-radius: 21px;
     background: #22396e;
     box-shadow: 3px 3px 7px  #0c1118; 
-  
 }
+
+
+.image-file:hover{
+    border: 2px solid #01b6ff;
+    background: transparent;
+}
+
 
 .item-info img{
     height: 47px;
