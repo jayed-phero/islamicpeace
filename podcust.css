@@ -11,16 +11,22 @@
 
 .main-video{
     position: fixed;
-    height: 291px;
+    height: 221px;
     width: 100%;
     background: #171431;
 }
 
 .main-boyan{
-    padding-top: 283px;
+    padding-top: 215px;
     background: #171431;
     padding-bottom: 9px;
     padding-bottom: 55px;
+}
+
+.main-boyan ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-boyan ul li a{
@@ -34,56 +40,59 @@
     height: auto;
     width: 94%;
     background: wheat;
-    margin: 11px 11px;
+    /* margin: 11px 11px; */
+    margin-bottom: 11px;
     border-radius: 11px;
+    padding: 7px;
    
 
 }
 
 .main-boyan ul li a img{
-    width: 101px;
+    width: 151px;
+    height:  81px;
     border-radius: 71px 11px 11px 11px;
 
 }
 
 .main-boyan ul li a h3{
     color: #1b092d;
-    font-size: 15px;
-    padding-left:17px;
+    font-size: 13px;
+    padding-left: 9px;
     font-weight: 600;
+    width: 181px;
 }
 
 .main-boyan ul li a p{
     font-size: 12px;
     color: #312727;
     padding-top: 7px;
-    padding-left:17px;
-
+    padding-left:9px;
+    /* padding-bottom: 15px; */
 }
+
 
 .videoo-list ul li a h3 .pira{
     font-size: 15px;
     color: #ffffff;
     padding-top: 3px;
-
 }
 
 
 .main-video iframe{
     width: 100%;
-    height: 215px;
-    
+    height: 215px; 
 }
 
-.main-video h5{
+.main-boyan h5{
     color: #c8c5c5;
     font-size: 13px;
     padding-left: 19px;
     padding-top: 7px;
-
+    padding-bottom: 15px;
 }
 
-.main-video h3{
+.main-boyan .hed-001{
      color: #ffffff;
      font-size: 19px;
      padding-left: 19px;
@@ -93,15 +102,15 @@
 
 /*=====khoyme-quran----*/
 
-.width-151px{
+/* .width-151px{
     width: 157px !important;
     height: 91px !important;
     border-radius: 9px;
-} 
+}  */
 
-.list-videos{
+/* .list-videos{
     padding-top: 291px !important;
-}
+} */
 
 /*---------
 bottom nav

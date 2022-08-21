@@ -35,7 +35,9 @@ body{
     height: 171px;
     width: 91%;
     padding: 13px;
-    background: #4a4fb3c2;
+    /* background: #4a4fb3c2; */
+    background: transparent;
+    border: 15px solid #4a4fb3c2;
     border-radius: 25px;
     text-align: center;
     color: #ffffff;
@@ -64,10 +66,9 @@ body{
 .amols ul li {
     height: 51px;
     width: 91%;
- 
     background: #22244f;
     border-radius: 11px;
-    margin-top: 11px;
+    margin-top: 15px;
 }
 
 .amol {
@@ -252,6 +253,27 @@ span{
     color: #aea8b4;
     font-size: 15px;
     padding-bottom: 5px;
+}
+
+.desc-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-btn a{
+    text-decoration: none;
+    background: #009578;
+    padding: 11px 25px;
+    border-radius: 5px;
+    margin-top: 35px;
+    font-size: 17px;
+    color: #cce3f1;
+}
+
+.desc-btn a:hover{
+    background: transparent;
+    border: 2px solid #009578;
 }
 
 .bani-dolil{
