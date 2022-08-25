@@ -5,6 +5,7 @@
 }
 
 .solat-main{
+    padding-top: 55px;
     background: #171431;
     padding-bottom: 55px;
 }
@@ -112,6 +113,90 @@ nav{
     font-size: 25px;
     color: #22396e;
  }
+
+
+ 
+/* header    
+
+
+=========*/
+
+
+header{
+    height: 47px;
+    width: 100%;
+    background-color: #192a3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+ header .icon-hed{
+     display: flex;
+     justify-content: space-around;
+   
+}
+
+header .icon-hed {
+    height: 31px;
+    width: 101px;
+    /* margin-left: 21px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid #01b6ff;
+}
+
+header .icon-hed a{
+    text-decoration: none;
+    color: #cce3f1;
+    font-size: 17px;
+}
+
+header .icon-hed:hover{
+    background: #01b6ff;
+    background: transparent;
+}
+
+
+header .icon-hed a:hover{
+    background: #01b6ff;
+}
+
+header .head{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head a{
+    display: flex;
+    text-decoration: none;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+header .head img{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+}
+
+header .head h5{
+    color: #cce3f1;
+    /* margin-top: 5px; */
+    margin-left: 11px;
+    font-size: 19px;
+}
+
 
 
 

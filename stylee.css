@@ -47,7 +47,7 @@ nav{
 
 .nav a i:hover{
     font-size: 25px;
-    color: #22396e;
+    color: #01b6ff;
  }
 
 .nav a span{
@@ -228,10 +228,32 @@ header{
    
 }
 
-header .icon-hed i{
-    margin-left: 21px;
-    font-size: 19px;
+header .icon-hed {
+    height: 31px;
+    width: 101px;
+    /* margin-left: 21px; */
+    font-size: 15px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid #01b6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icon-hed a{
+    text-decoration: none;
     color: #cce3f1;
+}
+
+header .icon-hed:hover{
+    background: #01b6ff;
+    /* background: transparent; */
+}
+
+
+header .icon-hed a:hover{
+    background: #01b6ff;
 }
 
 header .head{
