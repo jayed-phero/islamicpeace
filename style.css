@@ -10,8 +10,17 @@
 
 .background-color{
     background: #101c2a;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     padding-bottom: 25px;
+
+}
+
+/* header{
+    margin-bottom: 55px;
+} */
+
+.for-main-think{
+    padding-top: 55px;
 }
 
 
@@ -27,9 +36,15 @@ body{
     padding: 0px 15px;
 }
 
+/* #carouselExampleControls, #carousel-control-prev{
+    margin-top: 55px;
+} */
+
 .carousel{
     margin-right: 15px;
     margin-left: 15px;
+    /* padding-top: 55px; */
+    /* z-index: 0; */
 }
 
 .carousel-item img{
@@ -445,8 +460,8 @@ sura-list
 
 .more-small-section{
     height: 131px;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     background:  #182430;
     padding-top: 17px;
     border-radius: 25px;
@@ -466,7 +481,7 @@ sura-list
 }
 
 .for-picture {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .for-picture div {
@@ -497,6 +512,60 @@ sura-list
 .brforesleep div a{
     text-decoration: none;
 }
+
+
+
+
+/* jumuya-for picture
+
+
+=================== */
+
+.for-picture-jumma div img{
+    width: 100%;
+    height: 151px;
+    border-radius: 25px;
+}
+
+
+.for-picture-jumma div {
+    height: 151px;
+    width: 100%;
+    background: #22396e;
+    border-radius: 25px;
+   
+}
+
+.jumuya-day{
+    padding: 0px 35px;
+}
+
+.for-picture-jumma div:hover{
+    background: transparent;
+    border: 2px solid #01b6ff;
+    height: 161px;
+}
+
+.for-picture-jumma div a img{
+    padding: 7px;
+}
+
+.for-picture-jumma p{
+    color:  #cce3f1;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.for-picture-jumma div a{
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 footer{
     padding-left: 15px;
@@ -661,4 +730,62 @@ footer{
 
 .islam-song{
     margin-top: 35px;
+}
+
+
+/* header    
+
+
+=========*/
+
+
+header{
+    height: 47px;
+    width: 100%;
+    background-color: #192a3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+ header .icon-hed{
+     display: flex;
+     justify-content: space-around;
+   
+}
+
+header .icon-hed i{
+    margin-left: 21px;
+    font-size: 19px;
+    color: #cce3f1;
+}
+
+header .head{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head a{
+    display: flex;
+    text-decoration: none;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+header .head img{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+}
+
+header .head h5{
+    color: #cce3f1;
+    margin-top: 9px;
+    margin-left: 11px;
 }

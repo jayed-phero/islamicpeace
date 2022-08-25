@@ -67,8 +67,9 @@ more
 
 
 .more-title{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     text-align: center;
+    padding-top: 65px;
 }
 
 .more-title h2{
@@ -200,4 +201,64 @@ sura-list
 
 
 /*==========sir-islamic=======*/
+
+
+
+/* header    
+
+
+=========*/
+
+
+header{
+    height: 47px;
+    width: 100%;
+    background-color: #192a3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+ header .icon-hed{
+     display: flex;
+     justify-content: space-around;
+   
+}
+
+header .icon-hed i{
+    margin-left: 21px;
+    font-size: 19px;
+    color: #cce3f1;
+}
+
+header .head{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head a{
+    display: flex;
+    text-decoration: none;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+header .head img{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+}
+
+header .head h5{
+    color: #cce3f1;
+    /* margin-top: 5px; */
+    margin-left: 11px;
+    font-size: 19px;
+}
 
