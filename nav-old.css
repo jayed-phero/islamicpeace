@@ -1541,10 +1541,6 @@ body{
     height: auto;
     width: 100%;
   /*  background: #f4ede5;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: #191f2d;
 }
 
@@ -1553,7 +1549,6 @@ body{
 
 .book-ashol{
    position: fixed;
-   top: 0;
    display: flex;
    height: 71px;
    width: 100%;
@@ -1570,17 +1565,15 @@ body{
     height: 25px;
     width: 27px;
     background: #656462;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    /* padding-top: 5px; */
+    text-align: center;
+    padding-top: 5px;
     border-radius: 5px;
 }
 
 
 .book-ashol h2{
-    /* text-align: center; */
+
+    text-align: center;
     color: #126b6f;
     font-weight: 700;
 
@@ -1592,11 +1585,8 @@ body{
     width: 31px;
     font-size: 21px;
     background: #656462;
-    /* text-align: center;
-    padding-top: 5px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 5px;
     border-radius: 50%;
 }
 
@@ -1681,20 +1671,17 @@ body{
 
 .ayah-set{
     padding-bottom: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .ayah-01{
   height: auto;
-  width: 100%;
+  width: 91%;
   background: #191f2d;
-  /* margin-left: 15px; */
+  margin-left: 15px;
   border-radius: 15px;
   padding-top: 35px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -1703,7 +1690,7 @@ body{
     height: auto;
     width: 90%;
     background: #2c3240;
-    /* margin-left: 15px; */
+    margin-left: 15px;
     border-radius: 65px;
     padding-top: 15px;
     padding-left: 25px;
@@ -1735,43 +1722,17 @@ body{
     color: #b29966;
 }
 
-
 .ayah-01 h2{
     color: #2d7077;
     padding: 15px 0px;
     font-size: 19px;
     font-size: 17px;
-    text-align: justify;
 }
 
 .ayah-01 h3{
     display: none;
     padding: 15px 0px;
     color: #444141;
-}
-
-.ayah-icon p{
-    padding-right: 141px;
-    font-size: 19px;
-    color:#a8b5ba;
-}
-
-.ayah-icon{
-    display: flex;
-    justify-content: space-between;
-    padding-top:11px ;
-    padding-left: 5px;
-}
-
-.ayah-icon p{
-    font-size: 19px;
-    color:#a8b5ba;
-}
-
-.ayah-icon i{
-    padding-right: 31px;
-    padding-top: 3px;
-    color: #126b6f;
 }
 
 .ayah-icon-section{
