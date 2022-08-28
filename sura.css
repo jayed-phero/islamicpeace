@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -9,12 +10,72 @@
 sura-list
 ==================*/
 
+.sura-title-section{
+    height: 155px;
+    width: 100%;
+    position: fixed;
+    background: #0d2550;
+    padding-left: 23px;
+    padding-right: 23px;
+
+}
+
+.sura-title-section h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #01b6ff;
+}
+
+.sura-title-section input{
+    height: 33px;
+    width: 100% !important;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 15px; 
+    background: #ffffff;
+}
+
+.sura-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sura-button a{
+    text-decoration: none;
+    background: #01b6ff;
+    padding: 3px 45px;
+    font-size: 13px;
+    border-radius: 11px;
+    border: 2px solid #01b6ff;
+    color: #ffffff;
+}
+
+.sura-button a:hover{
+    background: transparent;
+}
+
 
 .sura-main{
    /*position: fixed;*/
     height:219px;
     width: 100%;
-    background:  #0d2550;
+    background:  lavender;
+}
+
+.sura-listhd {
+    position: fixed;
+    top: 0px;
+    height: 219px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lavender;
 }
 
 .sura-title{
@@ -50,15 +111,15 @@ sura-list
    color: #01b6ff;
 }
 
-.sura-main .input{
+/* .sura-main .input{
     display: flex;
     justify-content: center;
     
-}
+} */
 
-.sura-main input{
+.sura-file-head-section input{
     height: 37px;
-    width: 71% !important;
+    width: 100% !important;
     border-radius: 7px;
     border: none;
     outline: none;
@@ -120,18 +181,19 @@ sura-list
     display: flex;
     justify-content: center;
     border-radius: 0px 0px 15px 15px ;
+    padding-top: 117px;
 }
 
 .sura-files-list{
     height: auto;
     width: 95%;
-    background: #ffffff;
+    background: #0d2550;
   /*  padding-top:265px ;*/
     margin-top: 25px;
     padding-top: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 35px;
     border-radius: 25px;
 }
 
@@ -139,9 +201,9 @@ sura-list
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0d2550;
+    background: #ffffff;
     border-radius: 11px;
-    margin-bottom: 11px;
+    margin-bottom: 9px;
  
 }
 
@@ -150,14 +212,14 @@ sura-list
 }
 
 .sura-itemm .ittemn .number{
-    height: 31px;
-    width: 31px;
+    height: 27px;
+    width: 27px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     margin: 11px 11px;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 50%;
     background:  #01b6ff ;
 }
@@ -189,13 +251,14 @@ sura-list
     width: 141px;
 }
 .ittemn .naame h3{
-    font-size: 17px;
-    color: #e9e1e1;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #232121;
+    font-weight: 700;
 }
 
 .ittemn .naame h5{
-    color: #d1cfc8;
+    color: #807e7a;
     font-size: 12px;
    
 }
@@ -203,9 +266,9 @@ sura-list
 
 .sura-itemm .ittemn h2{
     font-size: 21px;
-    color:#c1adad;
+    color:#807878;
     text-align: right;
-    font-weight: 600;
+    font-weight: 500;
 } 
 
 .sura-itemm .ittemn i{
