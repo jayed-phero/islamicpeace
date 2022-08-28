@@ -11,7 +11,7 @@ sura-list
 ==================*/
 
 .sura-title-section{
-    height: 155px;
+    height: 165px;
     width: 100%;
     position: fixed;
     background: #0d2550;
@@ -23,9 +23,10 @@ sura-list
 .sura-title-section h2{
     text-align: center;
     margin-top: 15px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 600;
     color: #01b6ff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sura-title-section input{
@@ -47,7 +48,7 @@ sura-list
 
 .sura-button a{
     text-decoration: none;
-    background: #01b6ff;
+    /* background: #01b6ff; */
     padding: 3px 45px;
     font-size: 13px;
     border-radius: 11px;
@@ -181,7 +182,7 @@ sura-list
     display: flex;
     justify-content: center;
     border-radius: 0px 0px 15px 15px ;
-    padding-top: 117px;
+    padding-top: 125px;
 }
 
 .sura-files-list{
@@ -207,8 +208,13 @@ sura-list
  
 }
 
+.sura-itemm {
+    
+}
+
 .sura-itemm a{
     text-decoration: none;
+    
 }
 
 .sura-itemm .ittemn .number{
@@ -252,7 +258,7 @@ sura-list
 }
 .ittemn .naame h3{
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     color: #232121;
     font-weight: 700;
 }
@@ -265,7 +271,7 @@ sura-list
 
 
 .sura-itemm .ittemn h2{
-    font-size: 21px;
+    font-size: 23px;
     color:#807878;
     text-align: right;
     font-weight: 500;
