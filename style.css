@@ -115,15 +115,16 @@ body{
 }
 
 .part-desc img{
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
 }
 
 .part-desc h5{
     color: #01b6ff;
     font-size: 17px;
     font-weight: 600;
-    padding-left: 15px;
+    padding-top: 7px;
+    padding-left: 35px;
     padding-bottom: 15px;
 }
 
@@ -139,6 +140,10 @@ body{
     padding: 25px 15px;
 }
 
+.part-margin{
+    margin-bottom: -15px;
+}
+
 
 .part-1{
     height: auto;
@@ -147,6 +152,10 @@ body{
     border-radius: 25px;
     padding: 15px;
     margin-bottom: 25px;
+}
+
+.part-2 h5{
+    color: #01b6ff !important;
 }
 
 .part-1 img{
@@ -230,6 +239,20 @@ color: #cce3f1; */
 more
 --------------*/
 
+.more-small-section{
+    height: 281px !important;
+    /* position: sticky;
+    top: 0; */
+    background:  #182430;
+    padding-top: 17px;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.more-items .item{
+    padding-bottom: 15px !important;
+}
+
 
 .more-title{
     margin-top: 25px;
@@ -266,9 +289,9 @@ more
     display: flex;
     justify-content: center;
     align-items: center;
-    height:65px;
-    width: 65px;
-    border-radius: 21px;
+    height:85px;
+    width: 85px;
+    border-radius: 50%;
     background: #22396e;
     box-shadow: 3px 3px 7px  #0c1118; 
 }
@@ -279,8 +302,8 @@ more
 }
 
 .item-info img{
-    height: 41px;
-    width: 41px;
+    height: 51px;
+    width: 51px;
 }
 
 .item-info h3{
@@ -459,7 +482,7 @@ sura-list
 }
 
 .more-small-section{
-    height: 131px;
+    height: 231px;
     /* position: sticky;
     top: 0; */
     background:  #182430;
@@ -537,7 +560,7 @@ sura-list
 }
 
 .jumuya-day{
-    padding: 0px 35px;
+    padding: 0px 15px;
 }
 
 .for-picture-jumma div:hover{
@@ -550,11 +573,19 @@ sura-list
     padding: 7px;
 }
 
+.for-picture-jumma a{
+    text-decoration: none;
+}
+
 .for-picture-jumma p{
     color:  #cce3f1;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     padding-top: 5px;
+}
+
+.for-picture-jumma p span{
+    color: #01b6ff;
 }
 
 .for-picture-jumma div a{

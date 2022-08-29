@@ -30,7 +30,7 @@ sura-list
 }
 
 .sura-title-section input{
-    height: 33px;
+    height: 39px;
     width: 100% !important;
     border-radius: 7px;
     border: none;
@@ -208,9 +208,7 @@ sura-list
  
 }
 
-.sura-itemm {
-    
-}
+
 
 .sura-itemm a{
     text-decoration: none;
