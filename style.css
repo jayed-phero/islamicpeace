@@ -54,6 +54,27 @@ body{
    
 }
 
+
+.name-of{
+    color: #01b6ff;
+    padding-bottom: 15px;
+}
+
+ .main-nam{
+    height: 205px;
+    width: 100%;
+    background: #009578;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #01b6ff; */
+    border-radius: 15px;
+}
+
+.main-nam .arabic-name{
+    font-size: 45px;
+}
+
 .container-collap{
     display: flex;
 }
