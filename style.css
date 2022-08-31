@@ -871,6 +871,10 @@ header .head h5{
     color: #cce3f1;
 }
 
+ .container-fluid .navbar-brand span{
+    color: #cce3f1;
+}
+
 
 .navbar-brand img{
     height: 35px;
@@ -895,7 +899,8 @@ nav{
  .main-nave button{
     color: #01b6ff;
     /* background: #01b6ff; */
-    border: 2px solid #0f2854;
+    /* border: 2px solid #0f2854; */
+    border: 2px solid #01b6ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -905,11 +910,18 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #cce3f1;
+    
+}
+
+.navbar .navbar-toggler span{
+    color: #cce3f1;
 }
 
 .main-nave button span i{
     font-size: 35px;
     color: #cce3f1;
+   
 }
 
 .navbar-expand-lg{
