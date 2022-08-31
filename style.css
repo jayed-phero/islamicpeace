@@ -177,6 +177,7 @@ body{
 
 .part-2 h5{
     color: #01b6ff !important;
+    font-size: 19px !important;
 }
 
 .part-1 img{
@@ -186,7 +187,7 @@ body{
 
 .part-1 h5{
     color: #cce3f1;
-    font-size: 17px;
+    font-size: 19px !important;
     font-weight: 600;
     padding-top: 7px;
     padding-left: 35px;
@@ -195,7 +196,7 @@ body{
 
 .part-1 p{
     color: #cce3f1;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .bar-progress{
@@ -584,11 +585,11 @@ sura-list
     padding: 0px 15px;
 }
 
-.for-picture-jumma div:hover{
+/* .for-picture-jumma div:hover{
     background: transparent;
     border: 2px solid #01b6ff;
     height: 161px;
-}
+} */
 
 .for-picture-jumma div a img{
     padding: 7px;
@@ -728,6 +729,43 @@ footer{
     color: #cce3f1;
 }
 
+
+/* navbar social  */
+
+.social-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.social-1 .icon-9{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #cce3f1;
+    margin-right: 7px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-1 .icon-9:hover{
+    background: #009578;
+}
+
+.social-1 .icon-9 i{
+    font-size: 21px;
+    color: #01b6ff;
+    margin-top: 3px;
+}
+
+.social-1 .icon-9 i:hover{
+    color: #cce3f1;
+}
+
+
 .submit{
     display: flex;
     flex-direction: column;
@@ -850,10 +888,12 @@ header .head h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: -15px;
     padding-top: 9px;
 }
+
+
 
 
 .s-5 button{
@@ -927,4 +967,17 @@ nav{
 .navbar-expand-lg{
     position:sticky;
     top: 0%;
+}
+
+.navbar-nav li a{
+    color: #cce3f1 !important;
+}
+
+.navbar-nav li a:hover{
+    color: #01b6ff !important;
+    font-size: 19px !important;
+}
+
+.img-piic img{
+    margin-top: -25px;
 }
