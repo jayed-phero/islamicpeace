@@ -20,7 +20,7 @@
 } */
 
 .for-main-think{
-    padding-top: 55px;
+    padding-top: 71px;
 }
 
 
@@ -205,7 +205,7 @@ body{
 
 
 
-nav{
+.bottom-nav{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -236,16 +236,16 @@ color: #cce3f1; */
     transition: background-color 0.1s ease-in-out;
 }
 
-.nav a i{
+.bottom-nav a i{
    font-size: 17px
 }
 
-.nav a i:hover{
+.bottom-nav a i:hover{
     font-size: 25px;
     color: #01b6ff;
  }
 
-.nav a span{
+.bottom-nav a span{
     color: #cce3f1;
 }
 
@@ -867,41 +867,52 @@ header .head h5{
     width: 19px;
 }
 
-
-
-/* nav linkd */
-/* 
-
-
-.nav-links{
-    flex: 1;
-    text-align: right;
-
+.navbar-brand{
+    color: #cce3f1;
 }
 
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px ;
-    position: relative;
+
+.navbar-brand img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
 }
 
- .nav-links ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
+nav{
+    position: fixed;
 }
 
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after{
+.main-nave{
+    position: fixed;
     width: 100%;
-} */
+    z-index: 5001;
+}
+
+.navbar {
+    background: #192a3e;
+}
+
+ .main-nave button{
+    color: #01b6ff;
+    /* background: #01b6ff; */
+    border: 2px solid #0f2854;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nave button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nave button span i{
+    font-size: 35px;
+    color: #cce3f1;
+}
+
+.navbar-expand-lg{
+    position:sticky;
+    top: 0%;
+}
