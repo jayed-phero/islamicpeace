@@ -674,9 +674,10 @@ footer{
 }
 
 .index-img{
-    height: 95px;
-    width: 95px;
+    height: 125px;
+    width: 125px;
     margin: 25px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -699,7 +700,7 @@ footer{
 .social{
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: -25px;
 }
 
 .social .icon{
@@ -899,12 +900,12 @@ header .head h5{
 .s-5 button{
     font-size: 12px;
     padding: 3px 3px;
-    /* margin: 1px; */
+    margin: 2px;
 }
 
 .s-5 button img{
-    height: 19px;
-    width: 19px;
+    height: 17px;
+    width: 17px;
 }
 
 .navbar-brand{
@@ -980,4 +981,9 @@ nav{
 
 .img-piic img{
     margin-top: -25px;
+}
+
+.collapse .card span{
+    color: #01b6ff;
+    font-weight: 600;
 }
